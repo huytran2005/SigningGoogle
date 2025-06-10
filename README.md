@@ -95,28 +95,3 @@ To get this project running on your local machine and connect it to your Firebas
 
 **Note:** The "Web client ID" you found in the Firebase console is needed in your **Kotlin code** when configuring the Google Sign-In flow to request an ID token. You'll typically pass this to `GoogleSignInOptions`.
 
-## Usage
-
-Once the application is running on your Android device and successfully connected to Firebase:
-
-1.  The app should display the initial screen, likely with a "Sign in with Google" button.
-2.  Tap the "Sign in with Google" button.
-3.  Follow the prompts to select your Google Account and authorize the application.
-4.  Upon successful authentication, you should be directed to another screen, likely displaying confirmation or basic user information fetched from Firebase Authentication.
-5.  Look for a "Sign Out" button to end the user's session.
-
-## Potential Future Enhancements
-
-* Implement other Firebase Authentication methods (Email/Password, Phone, etc.).
-* Integrate Firestore or Realtime Database to store additional user profile information.
-* Use Firebase Storage for user profile pictures or other data.
-* Expand the UI to display more user details using Jetpack Compose.
-* Add robust error handling for login failures.
-
-## License
-
-[Specify your project's license, e.g., This project is licensed under the MIT License.]
-
-## Author
-
-[Your Name or GitHub Username]
